@@ -1,5 +1,11 @@
 {
   "itemGroup.musical_magic_tab": "音乐魔法",
-  "item.musical_magic.tone_debris": "音碎文"
+
+  "block.musical_magic.harmonic_ore": "泛音矿石",
+  "block.musical_magic.tonemond_ore": "音石矿石",
+
+  "item.musical_magic.tone_debris": "音碎文",
+  "item.musical_magic.harmonic_crystal": "泛音水晶",
+  "item.musical_magic.tonemond": "音石"
 
 }

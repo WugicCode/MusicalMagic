@@ -15,7 +15,8 @@ import net.minecraftforge.fml.event.lifecycle.InterModEnqueueEvent;
 import net.minecraftforge.fml.event.lifecycle.InterModProcessEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import org.leadwugic.musicalmagic.world.items.ModItems;
+import org.leadwugic.musicalmagic.world.item.ModItems;
+import org.leadwugic.musicalmagic.world.level.block.ModBlocks;
 import org.slf4j.Logger;
 
 import java.util.stream.Collectors;
@@ -49,6 +50,7 @@ public class MusicalMagic
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModBlocks.BLOCKS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ModItems.ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
 
 

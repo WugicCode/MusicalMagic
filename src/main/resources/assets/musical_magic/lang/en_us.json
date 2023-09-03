@@ -1,5 +1,11 @@
 {
   "itemGroup.musical_magic_tab": "Musical Magic",
-  "item.musical_magic.tone_debris": "Tone Debris"
+
+  "block.musical_magic.harmonic_ore": "Harmonic Ore",
+  "block.musical_magic.tonemond_ore": "Tonemond Ore",
+
+  "item.musical_magic.tone_debris": "Tone Debris",
+  "item.musical_magic.harmonic_crystal": "Harmonic Crystal",
+  "item.musical_magic.tonemond": "Tonemond"
 
 }
